@@ -1,0 +1,20 @@
+.header-color {
+    background: #833ab4; 
+    color: #833ab4;
+    background-color: #833ab4;
+}
+
+.blink {
+    color: #73808D;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+    0%{color: transparent;}
+    50%{color: black;}
+}
+
+.demo-grid-1 {
+    text-align: center;
+    margin: auto;
+}
